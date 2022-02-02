@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Task 1</title>
+ <style>
+        body {
+            background-color: rgb(230, 236, 240);
+        }
+
+        
+        main {
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            background: beige;
+        }
+
+
+
+        p {
+            font-family: Open Sans;
+            color: black;
+            border-bottom: 1.50px solid black;
+            font-family: cursive;
+            color: black;
+        }
+
+        button {
+        
+            align-content :center;
+            cursor: pointer;
+            width: 100px;
+            height: 25px;
+        }
+
+        button:hover {
+            opacity: 0.52;
+        }
+    </style>
+    
+    <link rel='stylesheet' href='http://ajax.googleapis.com/ajax/libs/dojo/1.6/dijit/themes/claro/claro.css' />
+    
+</head>
+<body class="claro">
+
+
+<table align="center"><tr>
+<td>*First name:</td><td> 	 <input type="text" name="fname" value=""id="fname" placeholder="Name" required></td>
+</tr><tr>
+<td> *Last name:</td><td>	 <input type="text" name="lname" value=""id="lname" placeholder="Last Name" required></td>
+</tr><tr>
+<td>* Department ID: </td><td><input type="text" name="depatrment_id" id="depID" value="" placeholder="Depatrment_id" required></td></tr>
+<tr><td>
+    <button id="btn" type="submit">submit</button></td><td></td></tr>
+</table>
+
+<br><br><br>
+
+<div></div>
+<p id="table2"></p>
+
+<br><br><br>
+
+<script>djConfig = { parseOnLoad: true };</script>
+<script src='http://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dojo/dojo.xd.js.uncompressed.js'></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/dojo/1.6.1/dojo.js"></script>
+<script src="	https://unpkg.com/jquery@3.6.0/dist/jquery.js"></script>
+<script src="homeJS.js"></script>
+</body>
+</html>
